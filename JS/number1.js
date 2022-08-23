@@ -111,15 +111,42 @@
 
 
 
-function calculateTotalPrice(order) {
-  let total = 0;
-  // Change code below this line
-for (const price of order) {
-  total += price; 
-    }
-    console.log(total);
-  // Change code above this line
-    return total;
+// function calculateTotalPrice(order) {
+//   let total = 0;
+//   // Change code below this line
+// for (const price of order) {
+//   total += price;
+//     }
+//     console.log(total);
+//   // Change code above this line
+//     return total;
     
+// }
+// calculateTotalPrice([2, 1, 4, 3, 1])
+
+// const book = {
+//   title: "The Last Kingdom",
+//   author: "Bernard Cornwell",
+//   rating: 8.38,
+// };
+// const keys = Object.keys(book);
+// console.log(keys); // ["title", "author", "genres", "rating"]
+
+// const values = Object.values(book);
+// console.log(values); // ["The Last Kingdom", "Bernard Cornwell", 8.38]
+
+
+
+
+function countTotalSalary(salaries) {
+  let totalSalary = 0;
+  // Change code below this line
+const countTotal = Object.values(salaries);
+  for  ( const value of countTotal) {
+    totalSalary += value;
+  }
+  // Change code above this line
+  return totalSalary;
 }
-calculateTotalPrice([412, 371, 94, 63, 176])
+
+countTotalSalary({ kiwi: 200, poly: 50, ajax: 150 })
