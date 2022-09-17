@@ -155,18 +155,20 @@
 
 
 
-  function findLongestWord(string) {
-  // Change code below this line
-const stringSplit = string.split(" ");
-  let longestWord = "";
-  for (const word of stringSplit) {
-    if (word.length > longestWord.length) {
-      longestWord = word;
-    }
-  }
+//   function findLongestWord(string) {
+//   // Change code below this line
+// const stringSplit = string.split(" ");
+//   let longestWord = "";
+//   for (const word of stringSplit) {
+//     if (word.length > longestWord.length) {
+//       longestWord = word;
+//     }
+//   }
 
-  return longestWord;
-  // Change code above this line
-  }
+//   return longestWord;
+//   // Change code above this line
+//   }
 
-console.log ()
+// console.log ()
+console.log(_.range(10, 51))
+console.log(_.kebabCase('a b c'))
