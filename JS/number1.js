@@ -138,15 +138,35 @@
 
 
 
-function countTotalSalary(salaries) {
-  let totalSalary = 0;
-  // Change code below this line
-const countTotal = Object.values(salaries);
-  for  ( const value of countTotal) {
-    totalSalary += value;
-  }
-  // Change code above this line
-  return totalSalary;
-}
+// function countTotalSalary(salaries) {
+//   let totalSalary = 0;
+//   // Change code below this line
+// const countTotal = Object.values(salaries);
+//   for  ( const value of countTotal) {
+//     totalSalary += value;
+//   }
+//   // Change code above this line
+//   return totalSalary;
+// }
 
-countTotalSalary({ kiwi: 200, poly: 50, ajax: 150 })
+// countTotalSalary({ kiwi: 200, poly: 50, ajax: 150 })
+
+
+
+
+
+  function findLongestWord(string) {
+  // Change code below this line
+const stringSplit = string.split(" ");
+  let longestWord = "";
+  for (const word of stringSplit) {
+    if (word.length > longestWord.length) {
+      longestWord = word;
+    }
+  }
+
+  return longestWord;
+  // Change code above this line
+  }
+
+console.log ()
