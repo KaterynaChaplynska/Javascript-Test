@@ -170,5 +170,51 @@
 //   }
 
 // console.log ()
-console.log(_.range(10, 51))
-console.log(_.kebabCase('a b c'))
+// console.log(_.range(10, 51))
+// console.log(_.kebabCase('a b c'))
+
+// const bookShelf = {
+//   authors: ["Бернард Корнуелл", "Роберт Шеклі"],
+//   getAuthors() {
+//     return this.authors;
+//   },
+//   addAuthor(authorName) {
+//     this.authors.push(authorName);
+//   },
+// };
+
+// console.log(bookShelf.getAuthors()); // ["Бернард Корнуелл", "Роберт Шеклі"]
+// bookShelf.addAuthor("Ли Танит");
+// console.log(bookShelf.getAuthors());
+
+// const employee = {
+//   baseSalary: 30000,
+//   overtime: 10,
+//   rate: 20,
+//   getWage() {
+//     return this.baseSalary + this.overtime * this.rate;
+//   },
+// };
+
+// employee.getWage();
+
+
+// const objC = {
+//   z: 5,
+// };
+
+// console.log(objC);
+
+console.log(document);
+
+const body = document.body;
+console.log(body);
+
+const list = body.firstElementChild;
+console.log(list);
+
+const firstListItem = list.firstElementChild;
+console.log(firstListItem);
+
+const listItems = list.children;
+console.log(listItems);
